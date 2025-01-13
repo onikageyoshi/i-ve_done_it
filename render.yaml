@@ -1,8 +1,8 @@
 databases:
   - name: David_post_db
     plan: free
-    databaseName: postgresql://david_post_db_user:B69Scr5t7Spmv0jAmSF3qCq2qBNT5KP8@dpg-ctvqu70gph6c73cf0hv0-a.oregon-postgres.render.com/david_post_db
-    user: David_post_db
+    databaseName: david_post_db  # Corrected: Use only the database name here
+    user: david_post_db_user    # Corrected: Ensure the username is a valid SQL identifier
 
 services:
   - type: web
