@@ -19,6 +19,10 @@ docker==7.1.0
 drf-yasg==1.21.8
 gunicorn==23.0.0
 h11==0.14.0
+h2==4.1.0
+hpack==4.0.0
+Hypercorn==0.17.3
+hyperframe==6.0.1
 idna==3.10
 inflection==0.5.1
 jsonschema==4.23.0
@@ -27,13 +31,14 @@ oauthlib==3.2.2
 odoo_rest_framework==1.2.0
 packaging==24.1
 pillow==11.0.0
+priority==2.0.0
 psycopg2-binary==2.9.10
 pycparser==2.22
 PyJWT==2.9.0
 python-decouple==3.8
 python3-openid==3.2.0
 pytz==2024.2
-pywin32==308
+pywin32==307
 PyYAML==6.0.2
 referencing==0.35.1
 requests==2.32.3
@@ -49,3 +54,4 @@ uritemplate==4.1.1
 urllib3==2.2.3
 uvicorn==0.34.0
 whitenoise==6.8.2
+wsproto==1.2.0
