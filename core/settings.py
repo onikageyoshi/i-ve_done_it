@@ -2,7 +2,7 @@ import os
 from datetime import timedelta
 from pathlib import Path
 import dj_database_url
-from decouple import config
+
 
 
 
@@ -31,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wxfc*sh97+so!3vecdj^)@j55sie1f@kxr&i@zz4modac2-73o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config("DEBUG", default=True, cast=bool)
+DEBUG = True
 
 ALLOWED_HOSTS = ["mysite-jfyr.onrender.com","localhost","127.0.0.1"]
 
